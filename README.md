@@ -1,2 +1,88 @@
-# ALLAN-DAVIS-PORTFOLIO-GROUP-14
-ALLAN DAVIS PORFOLIO HACKATHON ONE PLP
+**INDEX.HTML FILE:**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Davis - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <div class="intro">
+                <h1>Hi, I'm Allan Davis</h1>
+                <p>A Cybersecurity Expert, Big Data Enthusiast, and Software Engineer</p>
+                <a href="about.html" class="btn">Learn More About Me</a>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
+
+
+
+
+
+
+**ABOUT ME**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Allan Davis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-profile">
+                <img src="profile.jpg" alt="Allan Davis Profile" class="about-profile-img">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am a passionate Cybersecurity Expert and big Data Enthusiast, and I am currently pursuing Software Engineering at PLP Academy. I completed my BSc in IT from the University of Embu.</p>
+                <p>I am driven by a constant desire to learn and evolve in the ever-changing world of technology. I specialize in Cybersecurity, Big Data analysis, and software development, and my goal is to leverage my skills to make a meaningful impact in the tech industry.</p>
+                <p>With hands-on experience and a deep understanding of emerging technologies, I am always seeking to expand my expertise and work on innovative projects that push the boundaries of what is possible.</p>
+                <a href="ALLAN DAVIS MUTHOMI RESUME.pdf" download class="btn">Download My CV</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+
+
