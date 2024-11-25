@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Allan Davis</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>If you want to get in touch, feel free to drop me a message!</p>
+                
+                <!-- Contact Form -->
+                <form id="contact-form" method="POST" action="mailto:allandavis041@gmail.com" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <div class="social-links">
+                <h3>Connect with me</h3>
+                <a href="https://github.com/Allan-Davis" class="social-btn github" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/allan-davis-9294111ba/" class="social-btn linkedin" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
