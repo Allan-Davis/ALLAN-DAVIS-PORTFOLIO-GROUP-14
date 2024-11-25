@@ -1,3 +1,5 @@
+
+
 /* General Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,7 +52,7 @@ body {
 /* Home Section */
 #home {
     padding: 100px 20px;
-    background: linear-gradient(45deg, #ff9800, #ffeb3b); 
+    background: linear-gradient(45deg, #ff9800, #ffeb3b); /* Updated background gradient similar to Contact */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +109,7 @@ body {
 /* About Section */
 #about {
     padding: 100px 20px;
-    background: linear-gradient(45deg, #ff9800, #ffeb3b); 
+    background: linear-gradient(45deg, #ff9800, #ffeb3b); /* Same gradient background as Contact */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +148,7 @@ body {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif; /* Beautiful font */
 }
 
 #about p {
@@ -154,7 +156,8 @@ body {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif; /* Clean, easy-to-read font */
+}
 
 #about .btn {
     background-color: #ff6a00;
@@ -416,7 +419,7 @@ body {
     background-color: #00689d;
 }
 
-
+/* Optional: Add subtle hover effect for better interactivity */
 .social-btn.github, .social-btn.linkedin {
     position: relative;
     overflow: hidden;
@@ -434,3 +437,4 @@ body {
     transition: all 0.5s ease;
     z-index: -1;
 }
+
